@@ -21,7 +21,7 @@ Route::get('/inputdata', function () {
 });
 
 // Ini route ke proses data
-Route::post('/inputdata', [Pelanggan::class, 'proses_data_pelanggan'])->name('insert');
+Route::post('/inputdata1', [Pelanggan::class, 'proses_data_pelanggan'])->name('insert');
 
 // route untuk melihat data pelanggan
 Route::get('/datapelanggan', [Pelanggan::class, 'lihat_data_pelanggan'])->name('read');
