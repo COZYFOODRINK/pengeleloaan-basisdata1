@@ -9,11 +9,30 @@
 </head>
 <body>
 
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary  fw-bold justify-content-center">
-        <a class="navbar-brand text-white" >Formulir Produk</a>
-        </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand fw-bold ">
+                Pengelolaan Basis Data
+            </a>
+
+            <!-- Toggle (HP) -->
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">
+                            Kembali Ke Dashboard
+                        </a>
+                    </li>
+            </div>
+        </div>
+</nav>
 
     <form action="{{ route('insert.produk') }}" method="post">
      @csrf
