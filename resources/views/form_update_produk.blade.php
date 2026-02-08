@@ -71,6 +71,9 @@
                             <button type="submit" class="btn btn-primary">
                                 Update Data
                             </button>
+                            <a href="/dataproduk" class="btn btn-secondary">
+                            Batal
+                            </a>
                         </div>
                     </form>
                 </div>

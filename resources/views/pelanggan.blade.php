@@ -30,6 +30,11 @@
                             Kembali Ke Dashboard
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/datapelanggan">
+                            Lihat Data Pelanggan
+                        </a>
+                    </li>
             </div>
         </div>
 </nav>

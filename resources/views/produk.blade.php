@@ -30,6 +30,11 @@
                             Kembali Ke Dashboard
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/dataproduk">
+                            Lihat Data Produk
+                        </a>
+                    </li>
             </div>
         </div>
 </nav>
