@@ -36,6 +36,10 @@
                             Kembali Ke Dashboard
                         </a>
                     </li>
+                        <a class="nav-link active" href="/input-penjualan">
+                            Isi Data Penjualan
+                        </a>
+                    </li>
             </div>
         </div>
 </nav>

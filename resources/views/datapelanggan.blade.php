@@ -35,6 +35,10 @@
                             Kembali Ke Dashboard
                         </a>
                     </li>
+                        <a class="nav-link active" href="/inputdata">
+                            Isi Data Pelanggan
+                        </a>
+                    </li>
             </div>
         </div>
 </nav>

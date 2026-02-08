@@ -36,6 +36,10 @@
                             Kembali Ke Dashboard
                         </a>
                     </li>
+                        <a class="nav-link active" href="/input-produk">
+                            Isi Data Produk
+                        </a>
+                    </li>
             </div>
         </div>
 </nav>
