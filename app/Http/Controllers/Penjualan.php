@@ -49,6 +49,9 @@ class Penjualan extends Controller
                     'JumlahProduk' =>$validated['JumlahProduk'],
                     'SubTotal' => $validated['TotalHarga'],
                 ]);
+
+                // Kurangi stok produk
+                ProdukModel::where('id', $validated['produk_id'])->decrement('Stok', $validated['JumlahProduk']);
             });
 
             // //proses insert
